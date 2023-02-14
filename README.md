@@ -26,3 +26,9 @@ POST nubeck/api/v1/despesa
     descricao: 'cinema'
 }
 ```
+
+
+| Campo | Obrigatório | Tipo  | Descrição |
+|-------|-------------|-------|-----------|
+|valor  |sim          |decimal|O valo da despesa
+|categoria|sim|texto| A categoria da despesa, deve ser uma categoria previamente cadastrada
