@@ -4,8 +4,8 @@
 <!-- Listagem dos endpoints -->
 ## Endpoints 
 
-- Cadastro de desepesa 
-- Listar despesas
+- [Cadastro de desepesa](#cadastro-de-despesas) 
+- [Listar despesas](#detalhar-despesa)
 - Apagar despesa
 - Editar despesa
 ---
@@ -40,3 +40,27 @@
 201 | Despesa cadastrada com sucesso
 400 | Dados incorretos
 
+### Detalhar Despesa
+`GET nubeck/api/v1/despesa/{id}
+
+**Exemplo de Resposta**
+```js
+{
+    'valor': 100,
+    'categoria': {
+        'id': 1,
+        'nome': 'lazer',
+    },
+    'conta':{
+        'id': 1,
+        'nome': 'santander'
+    }
+    'data': '2023-01-01',
+    'descricao': 'cinema'
+}
+```
+**Códigos da Resposta**
+|codigo|descrição
+|-|-
+200 | Dados da despesa retornado
+404 | Não existe despesa com esse ID
