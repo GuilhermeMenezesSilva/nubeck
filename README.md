@@ -28,8 +28,15 @@
 
 **Campos da Requisição**
 | Campo | Obrigatório | Tipo  | Descrição |
-|-------|-------------|-------|-----------|
+|-------|:-------------:|:-------:|-----------|
 |valor  |sim          |decimal|O valo da despesa
 |categoria_id|sim|int| O id da categoria de despesa, deve ser uma categoria previamente cadastrada
 |conta_id|sim|data|A data da despesa
 |descricao|não|texto| Uma descrição da despesa com até 255 caracteres
+
+**Códigos da Resposta**
+|codigo|descrição
+|-|-
+201 | Despesa cadastrada com sucesso
+400 | Dados incorretos
+
