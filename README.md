@@ -5,7 +5,7 @@
 ## Endpoints 
 
 - [Cadastro de desepesa](#cadastro-de-despesas) 
-- [Listar despesas](#detalhar-despesa)
+- [Detalhar despesas](#detalhar-despesa)
 - Apagar despesa
 - Editar despesa
 ---
